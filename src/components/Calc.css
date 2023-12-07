@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.button {
+    width: 50px;
+    height: 50px;
+    color: white;
+    background-color: rgb(52, 52, 115);
+    border: .5px solid white;
+    font-size: larger;
+    cursor: pointer;
+    text-align: center;
+}
+
+.equal-button {
+    width: 100px;
+    height: 50px;
+    color: white;
+    border: .5px solid white;
+    background-color: rgb(21, 160, 114);
+}
+
+.col-container {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.col-container input {
+    height: 35px;
+}
